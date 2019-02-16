@@ -204,11 +204,30 @@ img {
     margin-right: 0;
     }
 
+    @keyframes colorchange {
+        from {background-color: rgb(168, 211, 236);}
+        to {background-color: rgb(247, 205, 226);}
+      }
+
+    figure {
+        width: 45%;
+        padding: 0;
+        margin: 0;
+        animation-name: colorchange;
+        animation-duration: 4s;
+        animation-iteration-count: 4;
+    }
+
+    #two, #four {
+        float: right;
+    }
+
     #me{
         width: 240px;
         float: left;
         margin: 18px 20px 10px 0;
     }
+
 }
 
 @media screen and (min-width: 980px) {
