@@ -215,9 +215,20 @@ img {
     .inner{
         width: 80%;
     }
+    .contentWrap{
+        margin: auto;
+        /* position: relative; */
+        width: 80%;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
     .content {
-        width: 60%;
-        /* float: left; */
+        width: 80%;
+        float: left;
     }
 
 }
